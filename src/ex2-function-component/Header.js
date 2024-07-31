@@ -1,11 +1,12 @@
 import React from "react";
 
 function Header() {
+  const headerText = "Header Content!";
   return (
     <div>
       <header className="container-fluid bg-success text-white px-5">
         <div className="container">
-          <h2>Header Content!</h2>
+          <h2>{headerText}</h2>
         </div>
       </header>
       <Navbar />
