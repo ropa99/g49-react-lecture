@@ -5,6 +5,10 @@ import NameList from "./ex4-props/NameList";
 import App from "./ex4-props/App";
 import Home from "./ex5-state/Home";
 import Counter from "./ex5-state/Counter";
+import MyComponent from "./ex6-demo-lifecycle/MyComponent";
+import ToggleButton from "./ex5-state/ToggleButton";
+import HooksDemo from "./ex7-hooks/HooksDemo";
+import TodoList from "./ex7-hooks/TodoList";
 //import NameList from "./ex3-var-function/NameList";
 
 const root = ReactDom.createRoot(document.getElementById("root"));
@@ -15,5 +19,10 @@ root.render(
   //   <NameList list={["Negar Baharmand", "Mehrdad Javan", "Simon Elbrink"]} />
   //   <NameList list={["Test testsson", "John Doe"]} />
   // </>
-  <Counter />
+  <div className="container">
+    <Counter />
+    <ToggleButton />
+    <HooksDemo />
+    <TodoList />
+  </div>
 );
