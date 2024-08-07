@@ -11,6 +11,7 @@ import HooksDemo from "./ex7-hooks/HooksDemo";
 import TodoList from "./ex7-hooks/TodoList";
 import ValidationForm from "./ex7-hooks/ValidationForm";
 import HookFormDemo from "./ex7-hooks/HookFormDemo";
+import SkillPractice from "./react-hooks-practice/SkillPractice";
 //import NameList from "./ex3-var-function/NameList";
 
 const root = ReactDom.createRoot(document.getElementById("root"));
@@ -22,7 +23,6 @@ root.render(
   //   <NameList list={["Test testsson", "John Doe"]} />
   // </>
   <div className="container">
-    <ValidationForm />
-    <HookFormDemo />
+    <SkillPractice />
   </div>
 );
