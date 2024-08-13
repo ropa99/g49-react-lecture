@@ -13,6 +13,8 @@ import ValidationForm from "./ex7-hooks/ValidationForm";
 import HookFormDemo from "./ex7-hooks/HookFormDemo";
 import SkillPractice from "./react-hooks-practice/SkillPractice";
 import AxiosDemo from "./ex8-axios-router/AxiosDemo";
+import Header from "./ex8-axios-router/Header";
+import RouterDemo from "./ex8-axios-router/RouterDemo";
 //import NameList from "./ex3-var-function/NameList";
 
 const root = ReactDom.createRoot(document.getElementById("root"));
@@ -24,6 +26,6 @@ root.render(
   //   <NameList list={["Test testsson", "John Doe"]} />
   // </>
   <div className="container">
-    <AxiosDemo />
+    <RouterDemo />
   </div>
 );
